@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: montserrat;
+}
+
+html,body{
+    height: 100%;
+}
+
+.background{
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    overflow: hidden;
+    background-image: url(img/background.png);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header{
+    padding:15px 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+header .logo{
+    width: 30%;
+}
+
+header .logo img{
+   width: 190px;
+   height: 80px;
+}
+
+.input{
+    width:10%;
+    padding: 20px 0;
+}
+
+input[type=submit]{
+    border-radius: 25px;
+    width: 127px;
+    height: 52px;
+    fill-opacity: 0.5;
+    background-color: transparent;
+    color: white;
+    border:2px solid white;
+    outline: none;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+section .center{
+    padding: 130px 2%;
+
+}
+
+section .center p{
+    font-size: 18px;
+    color: white;
+    margin:15px 0;
+}
+
+section .center h2{
+    color: white;
+    font-size: 90px;
+}
+
+section .center .input{
+    padding: 20px 0;
+}
+
+.side-bar{
+    position: absolute;
+    top:0;
+    right: 0;
+    height: 100%;
+    width: 80px;
+    background: rgba(0,0,0,0.4);
+}
+
+.side-bar .nav-bar{
+    margin: 40px auto;
+}
+
+.side-bar .nav-bar img{
+    width:70px;
+    height: 60px;
+    padding: 15px;
+}
+
+.side-bar .icons-bar{
+    padding: 5px;
+    top:70px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.side-bar .icons-bar img{
+    width:70px;
+    height: 70px;
+    padding: 8px;
+}
+
+.side-bar .icons-finals{
+    position: relative;
+    padding: 5px;
+    margin: 0 auto;
+    top:230px;
+}
+
+.side-bar .icons-finals img{
+    width:70px;
+    height: 70px;
+    padding: 8px;
+}
